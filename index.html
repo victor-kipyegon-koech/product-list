@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product list with cart</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   
+  <main class="container">
+    <section class="menu">
+      <h1>Desserts</h1>
+      <div class="items" id="menu-items">
+        <!-- Items dynamically inserted -->
+      </div>
+    </section>
+    <aside class="cart">
+      <h2>Your Cart (<span id="cart-count">0</span>)</h2>
+      <ul id="cart-list"></ul>
+      <div class="cart-footer">
+        <p> order Total: $<span id="cart-total">0.00</span></p>
+        <p class="note">This is a <strong>carbon-neutral</strong> delivery</p>
+        <button id="confirm-btn">Confirm Order</button>
+      </div>
+    </aside>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>

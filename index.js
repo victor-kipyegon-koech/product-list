@@ -1,15 +1,15 @@
 
 
 const menuItems = [
-  { name: "Waffle with Berries", price: 6.5, img: "/images/image-waffle-desktop.jpg" },
+  { name: "Waffle with Berries", price: 6.5, img: "./images/image-waffle-desktop.jpg" },
   { name: "Vanilla Bean Crème Brûlée", price: 7.0, img: "./images/image-creme-brulee-desktop.jpg" },
-  { name: "Macaron Mix of Five", price: 8.0, img: "/images/image-macaron-desktop.jpg" },
-  { name: "Classic Tiramisu", price: 5.5, img: "/images/image-tiramisu-desktop.jpg" },
-  { name: "Pistachio Baklava", price: 4.0, img: "/images/image-baklava-desktop.jpg" },
-  { name: "Lemon Meringue Pie", price: 5.0, img: "/images/image-meringue-desktop.jpg" },
-  { name: "Strawberry Shortcake", price: 6.0, img: "/images/image-cake-desktop.jpg" },
-  { name: "Brownie Deluxe", price: 5.5, img: "/images/image-brownie-desktop.jpg" },
-  { name: "Vanilla Panna Cotta", price: 6.5, img: "/images/image-panna-cotta-desktop.jpg" },
+  { name: "Macaron Mix of Five", price: 8.0, img: "./images/image-macaron-desktop.jpg" },
+  { name: "Classic Tiramisu", price: 5.5, img: "./images/image-tiramisu-desktop.jpg" },
+  { name: "Pistachio Baklava", price: 4.0, img: "./images/image-baklava-desktop.jpg" },
+  { name: "Lemon Meringue Pie", price: 5.0, img: "./images/image-meringue-desktop.jpg" },
+  { name: "Strawberry Shortcake", price: 6.0, img: "./images/image-cake-desktop.jpg" },
+  { name: "Brownie Deluxe", price: 5.5, img: "./images/image-brownie-desktop.jpg" },
+  { name: "Vanilla Panna Cotta", price: 6.5, img: "./images/image-panna-cotta-desktop.jpg" },
 ];
 
 let cart = JSON.parse(localStorage.getItem('cart')) || {};
